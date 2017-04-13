@@ -1,8 +1,3 @@
-; Author: James Albert
-; Mode: 64 bits
-; Syntax: NASM
-; Instruction set: 80386, x64
-
 global half2float
 global float2half
 
