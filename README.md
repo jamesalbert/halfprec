@@ -2,7 +2,7 @@
 Half-precision assembly interface for C
 
 
-##### Synopsis
+### Synopsis
 
 This library converts 32-bit floats and 64-bit doubles to/from [IEEE 754-2008](https://en.wikipedia.org/wiki/Half-precision_floating-point_format) half-precision floating point format.
 
@@ -96,6 +96,6 @@ I've currently tested this under:
   - GCC: 4.8.5 20150623 (Red Hat 4.8.5-11)
   - NASM: 2.10.07
 
-##### Vagrant
+### Vagrant
 
 There is also a Vagrantfile that provisions a centos 7 environment with all the packages you'd need for development. Bring it up with `vagrant up && vagrant ssh`. The project directory is in `/home/vagrant/halfprec`.
